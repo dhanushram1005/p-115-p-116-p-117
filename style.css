@@ -1,0 +1,22 @@
+h3{
+    font-size:25px;
+}
+
+.btn-success:hover{
+    background-color:rgb(21, 255, 0);
+}
+
+canvas{
+    animation-name:RAID;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes RAID{
+    from{
+        box-shadow:1px 1px 38px rgb(21, 255, 0);
+    }
+    to{
+        box-shadow:1px 1px 38px rgb(0, 255, 145);
+    }
+}
